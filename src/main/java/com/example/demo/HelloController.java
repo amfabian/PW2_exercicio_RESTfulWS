@@ -10,7 +10,7 @@ import javax.ws.rs.core.MediaType;
 /**
  *
  */
-@Path("/ex1{vel}")
+@Path("/ex2{vel}")
 @Singleton
 public class HelloController {
 
