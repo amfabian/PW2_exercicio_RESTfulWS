@@ -16,7 +16,7 @@ public class Exercicio2 {
 
     @GET
     @Produces(MediaType.APPLICATION_JSON)
-    public Double sayHello(@PathParam("vel") Double vel) {
+    public Double convNos(@PathParam("vel") Double vel) {
         System.out.println("Convertendo velocidade de nós para km/h");
 
         return vel*1.852;
