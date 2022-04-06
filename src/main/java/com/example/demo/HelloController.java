@@ -7,7 +7,7 @@ import javax.ws.rs.Path;
 /**
  *
  */
-@Path("/hello")
+@Path("/ex1")
 @Singleton
 public class HelloController {
 
